@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:lottie/lottie.dart';
 
 import 'package:provider/provider.dart';
 import 'package:weather_app/app/home/data/models/weather.dart';
@@ -114,7 +115,11 @@ class _WeatherView extends StatelessWidget {
                       // fontWeight: FontWeight.bold,
                     ),
                   ),
-                  const Flexible(child: Placeholder()),
+                  Flexible(
+                    child: Lottie.asset(
+                      provider.weathers[index].asset,
+                    ),
+                  ),
                 ],
               ),
             );

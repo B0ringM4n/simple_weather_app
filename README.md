@@ -1,6 +1,12 @@
 # weather_app
 
-A new Flutter project.
+Projecto de practica #1
+
+# diseño
+- [Desing: Based of dribble design] (https://dribbble.com/shots/13952652-Weather-App-Visual-Concept)
+- [Assset: Taked of jochan's lottife assets] (https://lottiefiles.com/user/26177)
+
+thank you for your work
 
 ## Getting Started
 
